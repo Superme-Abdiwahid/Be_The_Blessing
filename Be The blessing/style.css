@@ -1,0 +1,82 @@
+body{
+    background-image: url('./img/Community.webp');
+    background-color: green;
+   
+}
+
+.Blessing{
+    position: relative;
+    color: white;
+}
+
+  nav {
+    width: 100%;
+    background-color: #00695c;
+    font-size: 1.5rem;
+    padding: .75rem;
+    color: white;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: .5em;
+    text-decoration: none;
+
+}
+
+#hamburger-menu {
+    display: inline;
+    margin-right: 1rem;
+}
+
+ul {
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+
+.Top{
+    display: flex;
+}
+
+.dropdown{
+    display: flex;
+}
+
+.Main_Body{
+    color: white;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+ div > p{
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    ruby-align: center;
+    overflow: none;
+    object-fit: none;
+
+  }
+  
+
+  .navbar a{
+    color: white;
+  }
+  
+
+  

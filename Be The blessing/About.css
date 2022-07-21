@@ -1,0 +1,146 @@
+body{
+    background-image: url('./img/splash-lg.jpg');
+}
+
+
+.Blessing{
+    position: relative;
+    color: white;
+}
+
+  nav {
+    width: 100%;
+    background-color: #00695c;
+    font-size: 1.5rem;
+    padding: .75rem;
+    color: white;
+    text-align: left;
+    overflow: visible;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: .5em;
+    text-decoration: none;
+
+}
+
+#hamburger-menu {
+    display: inline;
+    margin-right: 1rem;
+}
+
+ul {
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+
+.Top{
+    display: flex;
+}
+
+.dropdown{
+    display: flex;
+}
+
+.Team{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+img + p, p.Selected{
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1 + img.Helping{
+    float: right;
+}
+
+.Main_Body{
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+ div > p{
+    text-align: center;
+    /* font-size: 100px; */
+}
+
+.About {
+    padding: 50px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+  }
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    ruby-align: center;
+    overflow: visible;
+    object-fit: none;
+
+  }
+
+  a.dropdown-item{
+    color: red;
+    background-color: navy;
+    font-size: 19px;
+  }
+  
+
+  .navbar a{
+    color: white;
+    
+  }
+
+  .navbar a:hover{
+    border-bottom-width: 0.6rem;
+    border-bottom-style: solid;
+    border-bottom-color: #b7a57a;
+  }
+  
+
+  img {
+    height: 200px;
+    border-radius: none;
+    border-collapse: inherit;
+}
+
+@media (min-width: 768px) {
+    main, footer {
+        margin: 0;
+    }
+
+    .card-body {
+        border: black solid 2px;
+    }
+
+    iframe {
+        height: 400px;
+    }
+
+    .intro {
+        margin: auto;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .information h3 {
+        font-size: 26px;
+    }
+}

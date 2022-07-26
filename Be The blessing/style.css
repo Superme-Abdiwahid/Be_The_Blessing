@@ -1,12 +1,21 @@
 body{
-    background-image: url('./img/Community.webp');
-    background-color: green;
+    
+    /* background-color: green; */
    
+}
+
+.BTB{
+    justify-content: space-between;
+}
+
+main{
+    background-image: url('./img/Community.webp');
+    background-repeat: no-repeat;
 }
 
 .Blessing{
     position: relative;
-    color: white;
+    /* color: white; */
 }
 
   nav {
@@ -14,44 +23,26 @@ body{
     background-color: #00695c;
     font-size: 1.5rem;
     padding: .75rem;
-    color: white;
+    margin-right: 420px;
+    /* color: white; */
     text-align: left;
+    overflow: visible;
 }
 
 nav a {
-    color: white;
+    /* color: white; */
     font-size: 1.5rem;
     margin-right: .5em;
     text-decoration: none;
 
 }
 
-#hamburger-menu {
-    display: inline;
-    margin-right: 1rem;
-}
-
-ul {
-    padding: 0;
-    padding-top: .5rem;
-    display: inline-block;
-}
 
 .Top{
     display: flex;
 }
 
-.dropdown{
-    display: flex;
-}
 
-.Main_Body{
-    color: white;
-}
-
-nav a:hover{
-    color: blueviolet;
-}
 
  div > p{
     text-align: center;
@@ -60,23 +51,21 @@ nav a:hover{
 
 
 
+.navbar-nav > li{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
 
 
-.navbar {
-    overflow: hidden;
-    background-color: green;
-    font-family: Arial, Helvetica, sans-serif;
-    ruby-align: center;
-    overflow: none;
-    object-fit: none;
-
+  a.dropdown-item{
+    color: yellow;
+    background-color: navy;
+    font-size: 19px;
   }
   
 
-  .navbar a{
-    color: white;
-  }
+
   
 
   

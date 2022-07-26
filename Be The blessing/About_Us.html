@@ -47,67 +47,87 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="navbar">
-      <h1 class="Blessing">BTB Foundation</h1>
-      <a href="index.html">Home</a>
-      <a href="About_Us.html">About Us</a>
-
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Contact Us
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">About CLF Conglomerate</a>
-        </div>
-      </div>
-      <a href="">Community and Regional Investments</a>
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Support Programs
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">School Programs</a>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: lightpink">
+      <h1 class="BTB">BTB Foundation</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="
+       navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About CLF Conglomerate</a>       
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Support Programs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">School Programs</a>
           <a class="dropdown-item" href="#">Digital Development</a>
           <a class="dropdown-item" href="#">Financial Planning Consulting</a>
           <a class="dropdown-item" href="#">Real Estate and Housing Support</a>
           <a class="dropdown-item" href="#">Public Relations Consulting</a>
+             
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About CLF Conglomerate</a>       
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    <main>
+      <div id="about" class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8">
+            <h1 class="About_Company">About Company Page</h1><br>
+            <h4>sdfghjkjhgfdefghj ertgyhjukhgtrfewrtghjukjhygtfrert ertghjhygtrewrtghjuhygtrfewrtghy dfghjhgtfrdewerfgthjukhgfdefrgth dfghjhgtfrdewedfgthjkhgfrdefgh</h4><br>
+            <p>ertghjkjhgfrewertyujk  fghjhgfret5yhujnhbvdfertyujhnbgfty fgtyhujhnbgfdrtyujhbgfdertyujhnbvcdfrtyh fdrtyujhnbvdfertyujhnbgfdertyuhj 123456789oijhgfrdewertyhj dfghjkhnbvcdsertyhjnbvcdfgthn</p>
+            <br><button class="btn btn-default btn-lg">Get in Touch</button>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-signal logo"></span>
+          </div>
         </div>
       </div>
-      <a href="">More</a>
-    </div>
-    <main>
-        <div class="About">
-            <h1>About Us Page</h1>
-            <p>Being a Blessing is for self empowerment and external development 
-                .</p>
-        
+      
+      <div class="container-fluid bg-grey">
+        <div class="row">
+          <div class="col-sm-4">
+           <img src="./img/Helping.png" />
           </div>
-          <div>
-            <h1>Mission</h1>
-            <img class="Helping" src="./img/Helping.png">
-            <p>
-                Be The Blessing Foundation (BTB) will bring resources and programs exposing and encouraging opportunity
-            </p>
-            <p class="Selected">
-                and growth to underrepresented and underprivileged communities, while gradually diminishing the impacts of disparities. 
-            </p>
+          <div class="col-sm-8">
+            <h2>Our Values</h2><br>
+            <h4><strong>MISSION:</strong>
+              Be The Blessing Foundation (BTB) will bring resources and programs exposing and encouraging opportunity and growth to underrepresented and underprivileged communities, while gradually diminishing the impacts of disparities. 
+            </h4><br>
+            <p>In partnership with DC SYEP, MD SYEP and Precision Construction Company for development and mentorship opportunities across metropolitan areas. </p>
           </div>
-          <h1 class="Team">Meet the Team</h1>
+        </div>
+      </div>
+      <hr />
+
       <div class="container grid">
+        <h1 class="Meet_Team">Meet the Team</h1>
         <div class="row">
           <div class="col-md-12 col-lg-6 col-xl-6 d-flex">
             <!-- Card 1 -->
@@ -116,28 +136,25 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <img
-                      src="img/uw-logo.jpg"
+                      src="./img//Jay.JPG"
                       alt="University of Washington logo"
                       class="pb-3 uw"
                     />
                   </div>
                   <div class="col-sm">
-                    <h2 class="card-title">Jay</h2>
+                    <h2 class="card-title">Jay Cammon</h2>
                     <p class="card-text">
                       Jays Bio Placeholder
-
-                      sgdfgdfsgdsdfghjhgfdsdfghjkhgfdghjhgfrghj
-                      kjhgtfrgtyhujuhgfdfghjkjhgtfreftghjukhgtrtgyh
-                      kjhgfrdewedfgthjkhgfdsdfghjkhytrerftghjhgfdsadfghj
-                      lkjhgfdsertyhujkjhgtrertghnbvcdxsaxdcvbnmnjhgfdertyuio
+        
+                      sbhhudhuwhduhuehfhuerhfhuerfhu
                     </p>
                     <div class="social-links">
-                      <a
+                      <a target="_blank"
                         href="https://www.instagram.com/abdiwahid_hajir"
                         aria-label="instagram"
                         ><i class="fa fa-instagram"></i
                       ></a>
-                      <a href="https://github.com/" aria-label="github"
+                      <a target="_blank" href="https://github.com/" aria-label="github"
                         ><i class="fa fa-github"></i
                       ></a>
                     </div>
@@ -146,7 +163,7 @@
               </div>
             </div>
           </div>
-
+        
           <div class="col-md-12 col-lg-6 col-xl-6 d-flex">
             <!-- Card 2 -->
             <div class="card mb-4">
@@ -174,12 +191,12 @@
                       him by email or you can call him or text him.
                     </p>
                     <div class="social-links">
-                      <a
+                      <a target="_blank"
                         href="https://www.instagram.com/abdiwahid_hajir"
                         aria-label="instagram"
                         ><i class="fa fa-instagram"></i
                       ></a>
-                      <a href="https://github.com/" aria-label="github"
+                      <a href="https://github.com/" target="_blank" aria-label="github"
                         ><i class="fa fa-github"></i
                       ></a>
                     </div>
@@ -188,7 +205,7 @@
               </div>
             </div>
           </div>
-
+        
           <div class="col-md-12 col-lg-6 col-xl-6 d-flex">
             <!-- Card 3 -->
             <div class="card mb-4">
@@ -211,12 +228,12 @@
                       gfgtrygtry5
                     </p>
                     <div class="social-links">
-                      <a
+                      <a target="_blank"
                         href=""
                         aria-label="instagram"
                         ><i class="fa fa-instagram"></i
                       ></a>
-                      <a href="" aria-label="github"
+                      <a  target="_blank" href="" aria-label="github"
                         ><i class="fa fa-github"></i
                       ></a>
                     </div>
@@ -225,8 +242,8 @@
               </div>
             </div>
           </div>
-
-
+        
+        
           <div class="col-md-12 col-lg-6 col-xl-6 d-flex">
             <!-- Card 4 -->
             <div class="card mb-4">
@@ -235,22 +252,22 @@
                   <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <img
                       src=""
-                      alt="Abdiwahid Bishar Hajir"
+                      alt=""
                       class="pb-3 uw"
                     />
                   </div>
                   <div class="col-sm">
-                    <h2 class="card-title">Other Memebers</h2>
+                    <h2 class="card-title">Ajai Cammon</h2>
                     <p class="card-text">
                      Others memeebrs
                     </p>
                     <div class="social-links">
-                      <a
+                      <a target="_blank"
                         href=""
                         aria-label="instagram"
                         ><i class="fa fa-instagram"></i
                       ></a>
-                      <a href="" aria-label="github"
+                      <a target="_blank" href="" aria-label="github"
                         ><i class="fa fa-github"></i
                       ></a>
                     </div>
@@ -259,10 +276,10 @@
               </div>
             </div>
           </div>
+          </div>
+          </div>
 
         
-        </div>
-      </div>
     </main>
   </body>
   <script src="index.js"></script>

@@ -1,0 +1,62 @@
+#qr{
+display:inline-block; 
+min-width:2.2cm; 
+height:3.8cm; 
+align: center;
+vertical-align: middle;
+}
+
+/* .Fashion_img{
+    width: 400px;
+    height: 400px;
+} */
+
+.container{
+    display: flex;
+    margin-top: 27px;
+    width: max-content;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.Fashion_Header{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Problem{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Problem_Space{
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }

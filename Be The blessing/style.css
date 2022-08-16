@@ -1355,7 +1355,8 @@ html[data-whatintent="mouse"] #main-header .region-header .block-donate-block .d
 #main-header .region-header .hamburger.is-active{
     background-color:#FFFFFF;
 }
-#main-header .region-header .hamburger.is-active .hamburger-inner,#main-header .region-header .hamburger.is-active .hamburger-inner::before,#main-header .region-header .hamburger.is-active .hamburger-inner::after{
+#main-header .region-header .hamburger.is-active .hamburger-inner,#main-header .region-header 
+.hamburger.is-active .hamburger-inner::before,#main-header .region-header .hamburger.is-active .hamburger-inner::after{
     background-color:gold
 }
 @media screen and (min-width:1024px){

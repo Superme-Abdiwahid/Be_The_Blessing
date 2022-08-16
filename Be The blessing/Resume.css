@@ -1,0 +1,91 @@
+
+*{
+    box-sizing:border-box
+}
+body{
+    
+    /* background-color: green; */
+    
+   
+}
+
+.BTB{
+    justify-content: space-between;
+}
+
+main{
+    /* background-image: url('./img/Community.webp');
+    background-repeat: no-repeat; */
+}
+
+.Blessing{
+    position: relative;
+    /* color: white; */
+}
+
+
+
+@media (min-width: 720px) {
+    i{
+        font-size: 100px;
+        margin-left: 100px;
+    }
+}
+
+
+.Top{
+    display: flex;
+}
+
+.Resume_Header{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.Resume-CoverLetter{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 45px;
+    padding-top: 15px;
+}
+
+ div > p{
+    text-align: center;
+    /* font-size: 100px; */
+}
+
+
+
+
+
+  a.dropdown-item{
+    color: yellow;
+    background-color: navy;
+    font-size: 19px;
+  }
+  
+
+.Resume_Next_Level{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.First>div {
+    padding: 5%;
+    background: gray;
+    margin: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 0 calc(50% - 30px);
+    
+  }
+
+  
+
+  

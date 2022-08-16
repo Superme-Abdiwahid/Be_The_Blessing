@@ -1,0 +1,113 @@
+
+*{
+    box-sizing:border-box
+}
+body{
+    
+    /* background-color: green; */
+    
+   
+}
+
+.BTB{
+    justify-content: space-between;
+}
+
+main{
+    /* background-image: url('./img/Community.webp');
+    background-repeat: no-repeat; */
+}
+
+.Blessing{
+    position: relative;
+    /* color: white; */
+}
+
+  nav {
+    width: 100%;
+    background-color: #00695c;
+    font-size: 1.5rem;
+    padding: .75rem;
+    margin-right: 420px;
+    /* color: white; */
+    text-align: left;
+    overflow: visible;
+}
+
+nav a {
+    /* color: white; */
+    font-size: 1.5rem;
+    margin-right: .5em;
+    text-decoration: none;
+
+}
+
+@media (min-width: 720px) {
+    i{
+        font-size: 100px;
+        margin-left: 100px;
+    }
+}
+
+
+.Top{
+    display: flex;
+}
+
+.Resume_Header{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.Resume-CoverLetter{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 45px;
+    padding-top: 15px;
+}
+
+ div > p{
+    text-align: center;
+    /* font-size: 100px; */
+}
+
+
+
+.navbar-nav > li{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+
+  a.dropdown-item{
+    color: yellow;
+    background-color: navy;
+    font-size: 19px;
+  }
+  
+
+.Resume_Next_Level{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.First>div {
+    padding: 5%;
+    background: gray;
+    margin: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 0 calc(50% - 30px);
+    
+  }
+
+  
+
+  

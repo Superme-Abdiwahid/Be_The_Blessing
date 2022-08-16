@@ -15,13 +15,12 @@ body{
     margin-right: 1rem;
 }
 
-nav a {
-    /* color: white; */
-    font-size: 1.5rem;
+/* nav a {
+    /* color: white;     font-size: 1.5rem;
     margin-right: .5em;
     text-decoration: none;
 
-}
+} */
 
 
 .Top{
@@ -29,33 +28,19 @@ nav a {
 }
 
 
-.navbar-nav > li{
-    padding-left: 50px;
-    padding-right: 50px;
-  }
 
 
 
-  a.dropdown-item{
-    color: yellow;
-    background-color: navy;
-    font-size: 19px;
-  }
 
 
-.Team{
-    text-align: center;
-    color: white;
-    font-size: 45px;
-    margin-top: 30px;
-}
 
-img + p, p.Selected{
+
+/* img + p, p.Selected{
     font-size: 30px;
     font-weight: 400px;
     font-family: 'Times New Roman', Times, serif;
 
-}
+} */
 
 h1 + img.Helping{
     float: right;
@@ -65,9 +50,6 @@ h1 + img.Helping{
     color: white;
 } */
 
-nav a:hover{
-    color: black;
-}
 
  div > p{
     text-align: center;
@@ -91,7 +73,7 @@ p{
   a.dropdown-item{
     color: yellow;
     background-color: navy;
-    font-size: 19px;
+
   }
 
   img {
@@ -139,11 +121,25 @@ p{
     display: flex;
 }
 
+.BTB{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
 
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
+  }
+
+  .Jay{
+    padding-left: 100px;
+    color:  purple;
+  }
+
+  .Being_Blessing{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   h2 {
     font-size: 24px;
